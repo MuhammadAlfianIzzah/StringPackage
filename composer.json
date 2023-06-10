@@ -3,16 +3,22 @@
     "description": "package untuk pengelolaan string",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/MuhammadAlfianIzzah/StringPackage",
     "autoload": {
         "psr-4": {
             "Alfianizzah\\Stringhelper\\": "src/"
         }
     },
-    "authors": [
+   "authors": [
         {
-            "name": "alfianizzah"
+            "name": "alfianizzah",
+            "email": "alfianizzah6@gmail.com",
+            "homepage": "https://github.com/MuhammadAlfianIzzah/StringPackage",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {
+        "php": ">=8.0.0"
+    }
 }
